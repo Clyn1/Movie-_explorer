@@ -1,0 +1,66 @@
+/* Hero Section */
+.hero {
+  background-image: url('../assets/images/clinton2.jpeg'); /* Set the background image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  width: 100vw; /* Ensure full viewport width */
+  height: 400px; /* Adjust height as needed */
+  display: flex; /* Center content */
+  justify-content: center;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+/* Hero Content Box */
+.hero-content {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  color: white;
+}
+
+/* Heading */
+.hero h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Paragraph */
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Search Bar */
+.search-bar {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  margin-right: 0;
+  width: 300px;
+}
+
+.search-bar button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #555;
+}

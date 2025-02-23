@@ -1,0 +1,32 @@
+/* src/components/Trending.css */
+.trending-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.trending-logo h1 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.trending-text {
+  margin-left: 10px;
+  color: #666;
+  font-weight: bold;
+  animation: fade 3s infinite;
+}
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
